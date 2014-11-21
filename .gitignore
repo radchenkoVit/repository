@@ -1,7 +1,6 @@
 MacPawTestTask/.idea/
 target/
 *.class
-*.log
 *.iml
 MacPawTestTask/target/
 MacPawTestTask/target/**/*

@@ -1,0 +1,8 @@
+2014-21-11 12:21:54   INFO [Pages.BasePage] : Home page is opened
+2014-21-11 12:21:55   INFO [Pages.BasePage] : SignUp Button was clicked
+2014-21-11 12:21:55   INFO [Pages.BasePage] : Home page is opened
+2014-21-11 12:21:56   INFO [Pages.BasePage] : Feature Button was clicked
+2014-21-11 12:21:56   INFO [utils.WebDriverWrapper] : ElementSparkle Frame Block is present is present
+2014-21-11 12:21:59   INFO [Pages.BasePage] : Sparkle Frame Block is present
+2014-21-11 12:21:59   INFO [Pages.BasePage] : App Management was clicked
+2014-21-11 12:22:02   INFO [Pages.BasePage] : Easy Update Block Present

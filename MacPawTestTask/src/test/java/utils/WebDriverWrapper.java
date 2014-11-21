@@ -155,7 +155,7 @@ public class WebDriverWrapper implements WebDriver {
     public void makeScreenShot(){
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(scrFile, new File("c:\\tmp\\screenshot" + WebDriverWrapper.screenNumber + ".png"));
+            FileUtils.copyFile(scrFile, new File(".\\screenShots\\screenshot_" + WebDriverWrapper.screenNumber + ".png"));
             WebDriverWrapper.screenNumber++;
         } catch (IOException e) {
             e.printStackTrace();
