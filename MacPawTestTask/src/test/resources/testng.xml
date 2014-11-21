@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MacPaw" verbose="1" >
+    <test name="Test">
+        <classes>
+            <class name="Tests.TestCases"/>
+        </classes>
+    </test>
+</suite>
