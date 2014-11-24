@@ -3,8 +3,8 @@
 <suite name="QALight" verbose="1" >
     <test name="Test">
         <classes>
-            <class name="Test.SignUpTest"/>
             <class name="Test.LogInTest"/>
+            <class name="Test.SignUpTest"/>
         </classes>
     </test>
 </suite>
