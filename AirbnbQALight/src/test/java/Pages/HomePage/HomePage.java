@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import utils.WebDriverWrapper;
 
+import java.util.ArrayList;
+
 public class HomePage extends BasePage {
     protected Logger log;
     LogInForm logInForm;
@@ -104,6 +106,13 @@ public class HomePage extends BasePage {
         signUpForm.clickOnSignUpButton();
 
         return new UserHomePage(driver);
+    }
+
+    public void switchWindow(int numberOfWindow) {
+        String handle = driver.getWindowHandles().toArray()[numberOfWindow]
+                .toString();
+        Object[] list = driver.getWindowHandles().toArray();
+        driver.switchTo().window(handle);
     }
 
 

@@ -14,7 +14,7 @@ public class TestCondition {
     @BeforeSuite
     public void setUp() throws Exception {
         log = Logger.getLogger(TestCondition.class);
-        driver = new WebDriverFactory().initDriver("firefox");
+        driver = new WebDriverFactory().initDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
